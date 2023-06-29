@@ -1,0 +1,79 @@
+/* html{
+    cursor: url('../image/icons8-heart-suit-48.png') , auto;
+} */
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.heart{
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.connector{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.connector_2{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.heart_left , .heart_right{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    position: relative;
+    border-radius: 50%;
+    background-color: transparent;
+}
+.heart_right{
+    right: 2%;
+}
+.heart_left{
+    left: 2%;
+}
+.heart_main{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    background-color: transparent;
+    transform: rotate(-45deg);
+    position: relative;
+    top: -153px;
+}
+.feel{
+    height: fit-content;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    font-size: 1.7em;
+    padding: 16px;
+    z-index: 10;
+    border-radius: 20%;
+    background-color: white;
+    color: red;
+    border: 2px solid crimson;
+    /* font-family:'Times New Roman', Times, serif; */
+    /* cursor: url('../image/icons8-heart-suit-48.png') , auto; */
+}
